@@ -12,11 +12,11 @@
 
 　
 - 官网 https://ezbdc.dashu.ai/
-- iOS版（https://t.co/tqNBTqJgje）
+- iOS版 https://t.co/tqNBTqJgje
 - Android版（WIP）
-- Chrome插件（https://t.co/BoWS1sMVqM）
-- Edge插件（https://t.co/KzYAyAPZm0）
-- Twitter/X 机器人（https://x.com/ezbdc365）
+- Chrome插件 https://t.co/BoWS1sMVqM
+- Edge插件 https://t.co/KzYAyAPZm0
+- Twitter/X 机器人 https://x.com/ezbdc365
 - Apple Watch版（WIP）
 
 ---
