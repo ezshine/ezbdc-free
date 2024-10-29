@@ -11,7 +11,7 @@
 ```
 
 　
-
+- 官网 https://ezbdc.dashu.ai/
 - iOS版（https://t.co/tqNBTqJgje）
 - Android版（WIP）
 - Chrome插件（https://t.co/BoWS1sMVqM）
@@ -19,7 +19,15 @@
 - Twitter/X 机器人（https://x.com/ezbdc365）
 - Apple Watch版（WIP）
 
-
 ---
 
-官网地址：https://ezbdc.dashu.ai/
+## 课程
+
+在我发布《ez背单词》APP后，我突发奇想，我想把 APP 的源码给卖了，同时还给源码附带一套全栈跨端开发的实战教学课程，手把手教大家开发/打包/上架/发布，教大家在 APP 中加入 admob，穿山甲等广告平台赚广告费。用的技术虽不新鲜，但是，正如你所见的那样，这可能是全宇宙最完整的项目了，官网/iOS版/Android版/watch版/Twitter机器人/Chrome插件版等等，是非常值得希望成为独立开发者的新人学习的超全面的实战课程。
+
+> 购课后即可获得源码的商业授权，非常鼓励大家皆有这套源码和课程开启自己的独立开发副业之路
+
+课程购买地址：https://xiaobot.net/p/ezindiehacker
+
+
+
