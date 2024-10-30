@@ -8,15 +8,15 @@
 首先打开网址 https://www.dcloud.io/hbuilderx.html ，我们要下载 HBuilderX 编辑器 
 
 下载安装好之后，打开 HBuilderX 选择菜单 File > New > Project
-![[Pasted image 20240930061947.png]]
+![[attachments/Pasted image 20240930061947.png]]
 
 由于 `ez背单词APP` 是基于 `uni-app`，`vue2` 版本开发的，所以在本课程中我们也使用 `vue2` 来进行教学。在新建项目的窗口中，我们先在右下角找到 Vue version 切换到 2，
 
-![[Pasted image 20240929044709.png]]
+![[attachments/Pasted image 20240929044709.png]]
 
  在 Project Name 一栏，输入这个项目的名称，然后给这个项目选择一个存放的目录，点击 Create
 
-![[Pasted image 20240929045133.png]]
+![[attachments/Pasted image 20240929045133.png]]
 
 我们就能在 `HBuilderX` 的左侧边栏看到一个有如图所示结构的新项目了
 
@@ -29,15 +29,15 @@
 任何一个 APP 都是由一个或者多个页面组合成的，uni-app 也一样，这个 pages文件夹就是用于存放 `uni-app` 中所有的页面文件的，每个页面都会对应一个 `.vue` 的文件，在这个文件中我们来实现一个页面具体长什么样子，有什么功能。这个目录下的页面文件和 `pages.json` 里的配置通常是一一对应的。
 
 我们可以来试着新建一个页面，在 pages 文件夹上点击鼠标右键，选择 New Page
-![[Pasted image 20240930110550.png]]
+![[attachments/Pasted image 20240930110550.png]]
 
-![[Pasted image 20240930110512.png]]
+![[attachments/Pasted image 20240930110512.png]]
 
 ## pages.json
 
  这是一个用于配置 APP 页面的文件，由于刚刚我们新建了一个名为 test 的页面，所以在这个文件里就出现了两个页面的配置项，还有一些全局的页面样式，背景色配置等。
  
-![[Pasted image 20240930113421.png]]
+![[attachments/Pasted image 20240930113421.png]]
 
 ## static 文件夹
 
@@ -73,12 +73,12 @@ uni.scss 和 uni.primisify.adaptor.js 两个文件我们可以忽略，因为通
 
 在 `HBuilderX` 的菜单栏里，选中 Run，选择 Browser，选择 Chrome
 
-![[Pasted image 20240930054757.png]]
+![[attachments/Pasted image 20240930054757.png]]
 
-![[Pasted image 20240929133417.png]]
+![[attachments/Pasted image 20240929133417.png]]
 
 也可以选择 Built In Browser，就会打开一个侧边栏，在侧边栏里显示网页的运行效果
-![[Pasted image 20240929133525.png]]
+![[attachments/Pasted image 20240929133525.png]]
 
 
 ## 运行到 Android 模拟器
@@ -89,27 +89,27 @@ uni.scss 和 uni.primisify.adaptor.js 两个文件我们可以忽略，因为通
 
 下载地址 https://developer.android.com/
 
-![[Pasted image 20240929053039.png]]
+![[attachments/Pasted image 20240929053039.png]]
 
 安装好后打开 Android Studio，点击 More Actions ，选择 Virtual Device Manager
 
-![[Pasted image 20240929055038.png]]
+![[attachments/Pasted image 20240929055038.png]]
 
 然后点 next，选择 `API35` ，等待下载完成
 
-![[Pasted image 20240929055642.png]]
+![[attachments/Pasted image 20240929055642.png]]
 
-![[Pasted image 20240929055710.png]]
+![[attachments/Pasted image 20240929055710.png]]
 
 点击右侧的三角形图标启动模拟器，当模拟器启动后，我们在 `HBuilderX` 中选择 Android Run
 
-![[Pasted image 20240929060946.png]]
+![[attachments/Pasted image 20240929060946.png]]
 
-![[Pasted image 20240929061109.png]]
+![[attachments/Pasted image 20240929061109.png]]
 
 再点击 run，我们就可以在 Android模拟器中将我们 `uni-app` 的项目运行起来了，在项目里做的修改，都会自动同步到模拟器中，非常方便。
 
-![[Pasted image 20240929090359.png]]
+![[attachments/Pasted image 20240929090359.png]]
 
 
 ## 运行到 iOS 模拟器 （仅 mac 可用）
@@ -120,33 +120,33 @@ uni.scss 和 uni.primisify.adaptor.js 两个文件我们可以忽略，因为通
 
 首先打开 AppStore， 下载 `Xcode` 
 
-![[Pasted image 20240930142107.png]]
+![[attachments/Pasted image 20240930142107.png]]
 
 下载好之后打开 Xcode，安装 iOS 模拟器
 
-![[Pasted image 20240929090052.png]]
+![[attachments/Pasted image 20240929090052.png]]
 
 完事后再从 `HBuilderX` 的菜单中选择 iOS-Simulator Run 就能够看到模拟器的选项了
 
-![[Pasted image 20240929090307.png]]
+![[attachments/Pasted image 20240929090307.png]]
 
-![[Pasted image 20240929090232.png]]
+![[attachments/Pasted image 20240929090232.png]]
 
 点击 Run 按钮，我们就可以在 iOS模拟器中将我们的 uni-app 项目运行起来了
-![[Pasted image 20240929090325.png]]
+![[attachments/Pasted image 20240929090325.png]]
 
 
 ## 运行到 Android 和 iOS 真机
 
 运行到真机和模拟器类似，需要我们把设备用 USB 线连接至电脑，即可在选择iOS Run 和 Android Run 的这个界面检测出来
 
-![[Pasted image 20240929103243.png]]
+![[attachments/Pasted image 20240929103243.png]]
 
 别忘了在你的 iOS 设备或 Android 设备启用开发者模式，并且在 iOS 设备上运行必须使用苹果证书来进行签名。
 
 	添加大帅老师微信（itdashuai）进入答疑群获取源码和用于测试的苹果开发者证书
 
-![[Pasted image 20240930060837.png]]
+![[attachments/Pasted image 20240930060837.png]]
 
 依次填入以下信息后，点击 Start Signing 按钮运行
 Bundle ID：com.ezshine.ezbdctest
@@ -165,23 +165,23 @@ https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
 
 然后在 HBuilderX 的菜单栏中点击 Wechat devtools 
 
-![[Pasted image 20240929192045.png]]
+![[attachments/Pasted image 20240929192045.png]]
 
 等待编译完成，我们启动微信开发者工具
 
-![[Pasted image 20240929192242.png]]
+![[attachments/Pasted image 20240929192242.png]]
 
 点击 + 号，暂时我们先用体验账号来试用微信开发者工具
 
-![[Pasted image 20240929192624.png]]
+![[attachments/Pasted image 20240929192624.png]]
 
 点击文件夹图标，选择 uni-app 项目下的 unpackage > dist > dev > mp-weixin 目录
 
-![[Pasted image 20240929192809.png]]
+![[attachments/Pasted image 20240929192809.png]]
 
 这样，我们的 uni-app 的项目就已经运行到微信小程序开发工具中了
 
-![[Pasted image 20240929193036.png]]
+![[attachments/Pasted image 20240929193036.png]]
 
 	运行其它平台小程序步骤大致相同，都需要注册指定平台的小程序账号以及下载指定平台的开发者工具
 
@@ -192,11 +192,10 @@ https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
 
 打开 ez背单词 项目的源码仓库，[https://github.com/ezshine/ezBDC](https://github.com/ezshine/ezBDC)
 
-![[Pasted image 20240930060442.png]]
+![[attachments/Pasted image 20240930060442.png]]
 
 点击 Download ZIP 或者使用命令行 git clone 到本地后，从 HBuilderX 的菜单中选择 File > Import > Import From Local Directory
 
-![[Pasted image 20240930060554.png]]
+![[attachments/Pasted image 20240930060554.png]]
 
 导入成功后，本小节前面学习到的运行方法，你都可以试试看了。
-
