@@ -2,7 +2,7 @@
 
 ### ez背单词 ｜ 中国人学英语必备
 
-背单词 APP 赛道的全端选手，拥有iOS，Android，Chrome插件/Edge插件， Apple Watch版，Twitter/X 每日一词机器人等，在你生活的各个场景潜移默化的让你掌握更多单词
+背单词APP赛道的全端选手，拥有iOS，Android，Chrome插件/Edge插件， Apple Watch版，Twitter/X 每日一词机器人等，在你生活的各个场景潜移默化的让你掌握更多单词
 
 　
 
@@ -13,11 +13,11 @@
 　
 - 官网 https://ezbdc.dashu.ai/
 - iOS版 https://t.co/tqNBTqJgje
-- Android版（WIP）
+- Android版 https://ezbdc.dashu.ai/ezbdc-android.apk
 - Chrome插件 https://t.co/BoWS1sMVqM
 - Edge插件 https://t.co/KzYAyAPZm0
 - Twitter/X 机器人 https://x.com/ezbdc365
-- Apple Watch版（WIP）
+- Apple Watch版 https://t.co/tqNBTqJgje
 
 ---
 
